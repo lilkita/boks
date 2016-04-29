@@ -3,6 +3,9 @@ root "bands#index"
 
 resources :bands
 get "about", to: "bands#about"
+#get "new", to: "bands#new"
+
+resources :bands, only: [:new, :index]
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

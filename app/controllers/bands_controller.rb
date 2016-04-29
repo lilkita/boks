@@ -8,6 +8,7 @@ def about
 end
 
 def new
+  @band = Band.new
 end
 
 
