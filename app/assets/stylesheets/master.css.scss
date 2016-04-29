@@ -1,3 +1,27 @@
 .clear {
   clear:both
 }
+
+.slogan {
+  font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
+  padding-top: 26px;
+}
+
+.links {
+  padding-top:26px;
+}
+
+.links a {
+  color: orange;
+  font-size:25px;
+  border-bottom: 1px solid orange;
+}
+
+header {
+  border-top: 12px solid #0D566E;
+}
+
+hr {
+  clear:both;
+  
+}
