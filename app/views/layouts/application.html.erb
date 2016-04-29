@@ -7,6 +7,21 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
+  <header>
+    <div class="col-xs-3">
+      LOGO
+    </div>
+    <div class="col-xs-4">
+      Concert Guide: Krista's Review of the Best Live Shows
+    </div>
+    <div class="col-xs-5">
+      <%= link_to "New Show", "#" %>
+      <%= link_to "About", "#" %>
+    </div>
+  </header>
+
+  <br class="clear" />
+
 
 <%= yield %>
 
