@@ -3,3 +3,6 @@ class BandsController < ApplicationController
     @band = Band.order("RANDOM()").first
   end
 end
+
+def about
+end
