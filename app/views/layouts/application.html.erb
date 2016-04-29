@@ -14,7 +14,11 @@
     <div class="col-xs-8 col-xs-offset-1 col-sm-offset-0 col-sm-5 links">
       <%= link_to "Home", root_path %>
       &nbsp;&nbsp;
-      <%= link_to "Add Band", new_band_path %>
+      <%= link_to new_band_path do %>
+       <i class="glyphicon glyphicon-plus-sign"></i>
+       Add Band
+       <% end %>
+       
        &nbsp;&nbsp;
       <%= link_to "About", about_path %>
     </div>
