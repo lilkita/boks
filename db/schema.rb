@@ -17,7 +17,8 @@ ActiveRecord::Schema.define(version: 20160429000820) do
   enable_extension "plpgsql"
 
   create_table "bands", force: :cascade do |t|
-    t.string   "tour"
+    t.string   "artist"
+    t.string   "date"
     t.string   "location"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
