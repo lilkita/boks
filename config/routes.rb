@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
 root "bands#index"
-# resources :bands
+
+resources :bands
 get "about", to: "bands#about"
 
   # The priority is based upon order of creation: first created -> highest priority.
